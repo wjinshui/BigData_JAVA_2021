@@ -16,4 +16,9 @@ public class Book
 	{
 		return "";
 	}
+	
+	void play()
+	{
+		return;
+	}
 }

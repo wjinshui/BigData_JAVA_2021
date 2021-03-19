@@ -15,7 +15,8 @@ public class ChooseStu
 	void waitPickStu(int count, int minutes)
 	{
 		int seconds = minutes * 60;
-		System.out.println("开始倒计时");
+		if(seconds >0)
+			System.out.println("开始倒计时");
 		try
 		{
 			while (seconds > 0)
