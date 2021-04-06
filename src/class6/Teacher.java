@@ -4,10 +4,43 @@ public class Teacher
 {
 	private String name, degree, position;
 	private int age;
+	
+	
+	
+
+	
+	public Teacher(String name, String degree, String position)
+	{
+		super();
+		this.name = name;
+		this.degree = degree;
+		this.position = position;
+		System.out.println(1);
+		System.out.println("asdfa");
+		
+	}
+
+	public Teacher(String m_degree)
+	{
+		degree = m_degree;
+	}
+	
+	public Teacher(String m_name, String m_degree)
+	{
+		
+	}
+	
 	public void introduce()
 	{
 		System.out.println("Name: " + name + ", degree: " + degree + " position: " + position);
 	}
+	
+	void introduce(String content)
+	{
+		
+	}
+	
+
 	
 	public String getName()
 	{
