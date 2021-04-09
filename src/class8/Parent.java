@@ -7,7 +7,11 @@ public class Parent
 	protected String m_protected;
 	private String m_private;
 	
-
+	public Parent(int xx)
+	{
+		System.out.println("In parent class");
+	}
+	
 
 }
 
